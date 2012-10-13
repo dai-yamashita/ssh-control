@@ -1,6 +1,6 @@
 { "name" : "ssh-control",
   "description" : "Scripted asynchronous control of remote machines in parallel via ssh, Forked from git://github.com/tsmith/node-control.git",
-  "version" : "0.2.3.1",
+  "version" : "0.1.0",
   "author" : "Sreekanth <sreeix@gmail.com>",
   "repository" : { "type" : "git" , "url" : "git://github.com/sreeix/node-control.git" },
   "main" : "./lib",
