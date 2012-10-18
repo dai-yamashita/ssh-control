@@ -1,5 +1,9 @@
 DESCRIPTION
 
+This is a fork of (node-control)[https://github.com/tsmith/node-control]. But my focus is on the simple ssh api and none of the task stuff.
+It will probably stay in the code but most changes will go to the  controller.js which is what i am interested in.
+Probably at some point i will strip out the other stuff like tasks.
+
 Define tasks for system administration or code deployment, then execute them on
 one or many remote machines simultaneously. Strong logging creates a complete
 audit trail of commands executed on remote machines in logs easily analyzed by
