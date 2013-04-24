@@ -15,8 +15,8 @@ for (i = 0, l = controllers.length; i < l; i += 1) {
 
 
 
-var control = require('./index'),
-    controller = Object.create(control.controller, {address: {value:"127.0.0.1"}, user:{value: 'v'}});
+// var control = require('./index'),
+//     controller = Object.create(control.controller, {address: {value:"127.0.0.1"}, user:{value: 'v'}});
 
-controller.ssh("ls -l")
+// controller.ssh("ls -l")
 
