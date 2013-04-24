@@ -4,5 +4,9 @@
   "author" : "Sreekanth <sreeix@gmail.com>",
   "repository" : { "type" : "git" , "url" : "git://github.com/sreeix/ssh-control.git" },
   "main" : "./lib",
+  "dependencies" : {
+    "winston": "*",
+    "async": "*"
+  },
   "engines" : { "node" : ">=0.6.0" }
 }
