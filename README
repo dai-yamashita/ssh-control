@@ -4,13 +4,18 @@ This is a fork of (node-control)[https://github.com/tsmith/node-control]. But my
 It will probably stay in the code but most changes will go to the  controller.js which is what i am interested in.
 Probably at some point i will strip out the other stuff like tasks.
 
+I have added the following into the code.
+* Fixes to allow password less access to machines, via ssh config
+* Using the new winston logger instead of a custom one. (This will let the other users of the api to set their own loggers)
+* Minor Deprecation Fixes, so it is good with node 0.8
+
 Define tasks for system administration or code deployment, then execute them on
 one or many remote machines simultaneously. Strong logging creates a complete
 audit trail of commands executed on remote machines in logs easily analyzed by
 standard text manipulation tools. 
 
-node-control depends only on OpenSSH and Node on the local control machine.
-Remote machines simply need a standard sshd daemon.
+ssh-control depends only on OpenSSH and Node on the local control machine.
+Remote machines simply needs a standard sshd daemon.
 
 
 
